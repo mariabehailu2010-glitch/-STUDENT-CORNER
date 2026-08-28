@@ -683,7 +683,7 @@ button {
     border: none;
     border-radius: 8px;
     background-color: #4a6cf7;
-    color: white;
+    color: rgb(39, 24, 104);
     font-size: 16px;
     cursor: pointer;
 }
