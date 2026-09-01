@@ -693,17 +693,13 @@ button:hover {
 }
 
 
-.scholarship-section {
-    width: 100%;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    text-align: center;
-}
+
+
 
 .scholarship-container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px ;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -712,53 +708,40 @@ button:hover {
 
 .scholarship-card {
     width: 100%;
+    background-color: white;
+    padding: 20px;
     box-sizing: border-box;
-    background: white;
-    padding: 15px;
     border-radius: 15px;
-
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
 }
 
 .scholarship-card img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
     border-radius: 10px;
+    margin-left: 35%;
+
 }
-
-.scholarship-card h3 {
-    font-size: 28px;
-    margin: 20px 0 10px;
-}
-
-.scholarship-card p {
-    font-size: 17px;
-    line-height: 1.6;
-}
-
-.scholarship-button {
-    display: inline-block;
-    padding: 12px 25px;
-    margin-top: 10px;
-
-    background: #0878d1;
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #222;
     color: white;
-    text-decoration: none;
+    text-align: center;
 
-    border-radius: 8px;
-    font-weight: bold;
+    padding: 25px 20px;
+    margin-top: 50px;
 }
-
-.scholarship-button:hover {
-    background: #055a9e;
-}
-
-
-/* On phones */
 @media (max-width: 700px) {
 
     .scholarship-container {
+        width: 95%;
         grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
     }
 }
